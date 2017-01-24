@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		971BFFC21E36D89500153DC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BFFC11E36D89500153DC2 /* AppDelegate.swift */; };
+		971BFFC41E36D89500153DC2 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BFFC31E36D89500153DC2 /* Main.swift */; };
+		971BFFC71E36D89500153DC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971BFFC51E36D89500153DC2 /* Main.storyboard */; };
+		971BFFC91E36D89500153DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971BFFC81E36D89500153DC2 /* Assets.xcassets */; };
+		971BFFCC1E36D89500153DC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971BFFCA1E36D89500153DC2 /* LaunchScreen.storyboard */; };
+		971BFFD71E36D89500153DC2 /* WikiReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BFFD61E36D89500153DC2 /* WikiReduxTests.swift */; };
+		971BFFE21E36D89600153DC2 /* WikiReduxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BFFE11E36D89600153DC2 /* WikiReduxUITests.swift */; };
+		971BFFF01E36D8E000153DC2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BFFEF1E36D8E000153DC2 /* Game.swift */; };
+		971BFFF21E36D8EE00153DC2 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BFFF11E36D8EE00153DC2 /* Results.swift */; };
+		971BFFF41E36D8FB00153DC2 /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971BFFF31E36D8FB00153DC2 /* Game.storyboard */; };
+		971BFFF61E36D90400153DC2 /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971BFFF51E36D90400153DC2 /* Results.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		971BFFD31E36D89500153DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 971BFFB61E36D89500153DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 971BFFBD1E36D89500153DC2;
+			remoteInfo = WikiRedux;
+		};
+		971BFFDE1E36D89600153DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 971BFFB61E36D89500153DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 971BFFBD1E36D89500153DC2;
+			remoteInfo = WikiRedux;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		971BFFBE1E36D89500153DC2 /* WikiRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		971BFFC11E36D89500153DC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		971BFFC31E36D89500153DC2 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		971BFFC61E36D89500153DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		971BFFC81E36D89500153DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		971BFFCB1E36D89500153DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		971BFFCD1E36D89500153DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971BFFD21E36D89500153DC2 /* WikiReduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiReduxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		971BFFD61E36D89500153DC2 /* WikiReduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiReduxTests.swift; sourceTree = "<group>"; };
+		971BFFD81E36D89600153DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971BFFDD1E36D89600153DC2 /* WikiReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiReduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		971BFFE11E36D89600153DC2 /* WikiReduxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiReduxUITests.swift; sourceTree = "<group>"; };
+		971BFFE31E36D89600153DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971BFFEF1E36D8E000153DC2 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		971BFFF11E36D8EE00153DC2 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		971BFFF31E36D8FB00153DC2 /* Game.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Game.storyboard; sourceTree = "<group>"; };
+		971BFFF51E36D90400153DC2 /* Results.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Results.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		971BFFBB1E36D89500153DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971BFFCF1E36D89500153DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971BFFDA1E36D89600153DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		971BFFB51E36D89500153DC2 = {
+			isa = PBXGroup;
+			children = (
+				971BFFC01E36D89500153DC2 /* WikiRedux */,
+				971BFFD51E36D89500153DC2 /* WikiReduxTests */,
+				971BFFE01E36D89600153DC2 /* WikiReduxUITests */,
+				971BFFBF1E36D89500153DC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		971BFFBF1E36D89500153DC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				971BFFBE1E36D89500153DC2 /* WikiRedux.app */,
+				971BFFD21E36D89500153DC2 /* WikiReduxTests.xctest */,
+				971BFFDD1E36D89600153DC2 /* WikiReduxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		971BFFC01E36D89500153DC2 /* WikiRedux */ = {
+			isa = PBXGroup;
+			children = (
+				971BFFC11E36D89500153DC2 /* AppDelegate.swift */,
+				971BFFC31E36D89500153DC2 /* Main.swift */,
+				971BFFEF1E36D8E000153DC2 /* Game.swift */,
+				971BFFF11E36D8EE00153DC2 /* Results.swift */,
+				971BFFC51E36D89500153DC2 /* Main.storyboard */,
+				971BFFF31E36D8FB00153DC2 /* Game.storyboard */,
+				971BFFF51E36D90400153DC2 /* Results.storyboard */,
+				971BFFC81E36D89500153DC2 /* Assets.xcassets */,
+				971BFFCA1E36D89500153DC2 /* LaunchScreen.storyboard */,
+				971BFFCD1E36D89500153DC2 /* Info.plist */,
+			);
+			path = WikiRedux;
+			sourceTree = "<group>";
+		};
+		971BFFD51E36D89500153DC2 /* WikiReduxTests */ = {
+			isa = PBXGroup;
+			children = (
+				971BFFD61E36D89500153DC2 /* WikiReduxTests.swift */,
+				971BFFD81E36D89600153DC2 /* Info.plist */,
+			);
+			path = WikiReduxTests;
+			sourceTree = "<group>";
+		};
+		971BFFE01E36D89600153DC2 /* WikiReduxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				971BFFE11E36D89600153DC2 /* WikiReduxUITests.swift */,
+				971BFFE31E36D89600153DC2 /* Info.plist */,
+			);
+			path = WikiReduxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		971BFFBD1E36D89500153DC2 /* WikiRedux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971BFFE61E36D89600153DC2 /* Build configuration list for PBXNativeTarget "WikiRedux" */;
+			buildPhases = (
+				971BFFBA1E36D89500153DC2 /* Sources */,
+				971BFFBB1E36D89500153DC2 /* Frameworks */,
+				971BFFBC1E36D89500153DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiRedux;
+			productName = WikiRedux;
+			productReference = 971BFFBE1E36D89500153DC2 /* WikiRedux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		971BFFD11E36D89500153DC2 /* WikiReduxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971BFFE91E36D89600153DC2 /* Build configuration list for PBXNativeTarget "WikiReduxTests" */;
+			buildPhases = (
+				971BFFCE1E36D89500153DC2 /* Sources */,
+				971BFFCF1E36D89500153DC2 /* Frameworks */,
+				971BFFD01E36D89500153DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				971BFFD41E36D89500153DC2 /* PBXTargetDependency */,
+			);
+			name = WikiReduxTests;
+			productName = WikiReduxTests;
+			productReference = 971BFFD21E36D89500153DC2 /* WikiReduxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		971BFFDC1E36D89600153DC2 /* WikiReduxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971BFFEC1E36D89600153DC2 /* Build configuration list for PBXNativeTarget "WikiReduxUITests" */;
+			buildPhases = (
+				971BFFD91E36D89600153DC2 /* Sources */,
+				971BFFDA1E36D89600153DC2 /* Frameworks */,
+				971BFFDB1E36D89600153DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				971BFFDF1E36D89600153DC2 /* PBXTargetDependency */,
+			);
+			name = WikiReduxUITests;
+			productName = WikiReduxUITests;
+			productReference = 971BFFDD1E36D89600153DC2 /* WikiReduxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		971BFFB61E36D89500153DC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = PrimitiveSoftware;
+				TargetAttributes = {
+					971BFFBD1E36D89500153DC2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U6R7NJL8LW;
+						ProvisioningStyle = Automatic;
+					};
+					971BFFD11E36D89500153DC2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U6R7NJL8LW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 971BFFBD1E36D89500153DC2;
+					};
+					971BFFDC1E36D89600153DC2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U6R7NJL8LW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 971BFFBD1E36D89500153DC2;
+					};
+				};
+			};
+			buildConfigurationList = 971BFFB91E36D89500153DC2 /* Build configuration list for PBXProject "WikiRedux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 971BFFB51E36D89500153DC2;
+			productRefGroup = 971BFFBF1E36D89500153DC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				971BFFBD1E36D89500153DC2 /* WikiRedux */,
+				971BFFD11E36D89500153DC2 /* WikiReduxTests */,
+				971BFFDC1E36D89600153DC2 /* WikiReduxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		971BFFBC1E36D89500153DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971BFFF41E36D8FB00153DC2 /* Game.storyboard in Resources */,
+				971BFFF61E36D90400153DC2 /* Results.storyboard in Resources */,
+				971BFFCC1E36D89500153DC2 /* LaunchScreen.storyboard in Resources */,
+				971BFFC91E36D89500153DC2 /* Assets.xcassets in Resources */,
+				971BFFC71E36D89500153DC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971BFFD01E36D89500153DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971BFFDB1E36D89600153DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		971BFFBA1E36D89500153DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971BFFC41E36D89500153DC2 /* Main.swift in Sources */,
+				971BFFF01E36D8E000153DC2 /* Game.swift in Sources */,
+				971BFFF21E36D8EE00153DC2 /* Results.swift in Sources */,
+				971BFFC21E36D89500153DC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971BFFCE1E36D89500153DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971BFFD71E36D89500153DC2 /* WikiReduxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971BFFD91E36D89600153DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971BFFE21E36D89600153DC2 /* WikiReduxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		971BFFD41E36D89500153DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 971BFFBD1E36D89500153DC2 /* WikiRedux */;
+			targetProxy = 971BFFD31E36D89500153DC2 /* PBXContainerItemProxy */;
+		};
+		971BFFDF1E36D89600153DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 971BFFBD1E36D89500153DC2 /* WikiRedux */;
+			targetProxy = 971BFFDE1E36D89600153DC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		971BFFC51E36D89500153DC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				971BFFC61E36D89500153DC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		971BFFCA1E36D89500153DC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				971BFFCB1E36D89500153DC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		971BFFE41E36D89600153DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		971BFFE51E36D89600153DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		971BFFE71E36D89600153DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U6R7NJL8LW;
+				INFOPLIST_FILE = WikiRedux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.PrimitiveSoftware.WikiRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		971BFFE81E36D89600153DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U6R7NJL8LW;
+				INFOPLIST_FILE = WikiRedux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.PrimitiveSoftware.WikiRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		971BFFEA1E36D89600153DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U6R7NJL8LW;
+				INFOPLIST_FILE = WikiReduxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.PrimitiveSoftware.WikiReduxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiRedux.app/WikiRedux";
+			};
+			name = Debug;
+		};
+		971BFFEB1E36D89600153DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U6R7NJL8LW;
+				INFOPLIST_FILE = WikiReduxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.PrimitiveSoftware.WikiReduxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiRedux.app/WikiRedux";
+			};
+			name = Release;
+		};
+		971BFFED1E36D89600153DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U6R7NJL8LW;
+				INFOPLIST_FILE = WikiReduxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.PrimitiveSoftware.WikiReduxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WikiRedux;
+			};
+			name = Debug;
+		};
+		971BFFEE1E36D89600153DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U6R7NJL8LW;
+				INFOPLIST_FILE = WikiReduxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.PrimitiveSoftware.WikiReduxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WikiRedux;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		971BFFB91E36D89500153DC2 /* Build configuration list for PBXProject "WikiRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971BFFE41E36D89600153DC2 /* Debug */,
+				971BFFE51E36D89600153DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		971BFFE61E36D89600153DC2 /* Build configuration list for PBXNativeTarget "WikiRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971BFFE71E36D89600153DC2 /* Debug */,
+				971BFFE81E36D89600153DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		971BFFE91E36D89600153DC2 /* Build configuration list for PBXNativeTarget "WikiReduxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971BFFEA1E36D89600153DC2 /* Debug */,
+				971BFFEB1E36D89600153DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		971BFFEC1E36D89600153DC2 /* Build configuration list for PBXNativeTarget "WikiReduxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971BFFED1E36D89600153DC2 /* Debug */,
+				971BFFEE1E36D89600153DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 971BFFB61E36D89500153DC2 /* Project object */;
+}
