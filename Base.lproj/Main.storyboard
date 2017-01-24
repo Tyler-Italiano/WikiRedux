@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="02q-qP-0xK">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="Main" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="Menu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="The goal is to jump from internal Wikipedia link to link and arrive at the final Wikipedia page" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Frz-OV-PdH">
+                                <rect key="frame" x="67" y="47" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="1sN-AL-zsh"/>
+                                    <constraint firstAttribute="width" constant="240" id="oPc-tO-t9D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3H-iu-gus">
+                                <rect key="frame" x="109" y="207" width="156" height="109"/>
+                                <color key="backgroundColor" red="0.0" green="0.88976362180000002" blue="0.060484514830000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="BJp-Di-rpK"/>
+                                    <constraint firstAttribute="height" constant="109" id="Mq4-QC-uRZ"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Easy"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jmp-8C-Hey">
+                                <rect key="frame" x="109" y="337" width="156" height="109"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="LF0-mn-duP"/>
+                                    <constraint firstAttribute="height" constant="109" id="OBy-SF-Tkk"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Hard"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHL-KP-qTG">
+                                <rect key="frame" x="109" y="482" width="156" height="109"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.1025861391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="UQ6-ed-SJF"/>
+                                    <constraint firstAttribute="height" constant="109" id="Xs0-1K-jd1"/>
+                                </constraints>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Nearly Impossible"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jmp-8C-Hey" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="93" id="2kh-xr-8Jo"/>
+                            <constraint firstItem="iHL-KP-qTG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="93" id="IvL-HH-fgY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="K3H-iu-gus" secondAttribute="trailing" constant="94" id="Los-3q-5yt"/>
+                            <constraint firstItem="Jmp-8C-Hey" firstAttribute="top" secondItem="K3H-iu-gus" secondAttribute="bottom" constant="21" id="QIG-hO-7MM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jmp-8C-Hey" secondAttribute="trailing" constant="94" id="RUa-Ev-KEe"/>
+                            <constraint firstItem="Frz-OV-PdH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="Rsi-6Y-Rhh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iHL-KP-qTG" secondAttribute="trailing" constant="94" id="W1e-0l-mLb"/>
+                            <constraint firstItem="K3H-iu-gus" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="93" id="dvt-Sx-t6J"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Frz-OV-PdH" secondAttribute="trailing" constant="52" id="hi7-SV-w8b"/>
+                            <constraint firstItem="iHL-KP-qTG" firstAttribute="top" secondItem="Jmp-8C-Hey" secondAttribute="bottom" constant="36" id="qlN-VZ-UVh"/>
+                            <constraint firstItem="Frz-OV-PdH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="t6h-GV-Cfg"/>
+                            <constraint firstItem="K3H-iu-gus" firstAttribute="top" secondItem="Frz-OV-PdH" secondAttribute="bottom" constant="32" id="tA4-cZ-rLM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xgh-mh-cwu"/>
+                    <connections>
+                        <outlet property="easyButtonOutlet" destination="K3H-iu-gus" id="x1W-Q9-DIt"/>
+                        <outlet property="hardButtonOutlet" destination="Jmp-8C-Hey" id="eg8-Kv-tNm"/>
+                        <outlet property="nearlyImpossibleButtonOutlet" destination="iHL-KP-qTG" id="hOD-UL-ycR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="138.98050974512745"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0hO-Xq-uUJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="02q-qP-0xK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Z1O-zf-jHQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TLA-Ml-Z1S"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iHz-Fy-rl4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="271" y="139"/>
+        </scene>
+    </scenes>
+</document>
